@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-playfair: 'Playfair Display', serif;
+    --font-sans: 'Outfit', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F4F7FB;
+    color: #0F172A;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Royal Indian Blue & Gold Accents */
+.bg-royal-blue {
+  background: linear-gradient(135deg, #0B2545 0%, #133E87 50%, #1E3A8A 100%);
+}
+
+.bg-royal-navy {
+  background: linear-gradient(135deg, #08182B 0%, #0B2545 50%, #133E87 100%);
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F3E5AB 50%, #AA7C11 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #996515 0%, #D4AF37 50%, #8A5A12 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom delicate blue theme scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F7FB;
+}
+::-webkit-scrollbar-thumb {
+  background: #93C5FD;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1E3A8A;
+}
+

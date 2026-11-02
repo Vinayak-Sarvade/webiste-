@@ -1,0 +1,6 @@
+{
+  "name": "SweetWhisk Bakery",
+  "description": "Traditional Indian Sweets & Bakery in Hubli, Karnataka. Fresh sweets, festive gift boxes, and authentic regional specialities like Dharwad Peda and Mysore Pak.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
